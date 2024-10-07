@@ -19,7 +19,7 @@ let number_of_students = 27
 
 let age = 16;
 
-console.log("I am " + age + " years old");
+console.log("I am", age, "years old");
 
 
 // TASK PART 1
@@ -32,7 +32,7 @@ let area = length * width;
 
 console.log(area);
 
-console.log("Area: " + area);
+console.log("Area:", area);
 
 
 // TASK PART 2
@@ -43,7 +43,7 @@ let last_name = "Claws";
 
 last_name = "Claus";
 
-console.log("I still believe in " + first_name + " " + last_name);
+console.log("I still believe in", first_name, last_name);
 
 
 // TASK PART 3
@@ -61,4 +61,6 @@ let radius = 734;
 
 let circle_area = π * radius * radius;
 
-console.log("The area of a circle with a radius of " + radius + " is " + circle_area);
+console.log("The area of a circle with a radius of", radius, "is", circle_area);
+
+// ONLY console.log CAN USE A COMMA TO ADD A SPACE
