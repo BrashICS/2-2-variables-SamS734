@@ -55,7 +55,7 @@ console.log(typeof last_name);
 
 // TASK PART 4
 
-const π = 3.14;
+const π = 3.14; // constants are usually capitalized
 
 let radius = 734;
 
@@ -64,3 +64,5 @@ let circle_area = π * radius * radius;
 console.log("The area of a circle with a radius of", radius, "is", circle_area);
 
 // ONLY console.log CAN USE A COMMA TO ADD A SPACE
+
+// SEMI COLONS ARE OPTIONAL
